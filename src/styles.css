@@ -1,0 +1,11 @@
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(55, 55, 188);
+  height: 40px;
+}
+
+.search-button {
+  margin-left: 0;
+}
