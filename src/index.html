@@ -1,4 +1,43 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="search-tab">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          data-search
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="gallery">
+      <!-- Obraz karty -->
+      <div class="photo-card"></div>
+    </div>
+
+    <div class="loader">
+      <button type="button" class="load-more">Load more images</button>
+    </div>
+    <!-- <include src="./partials/example.html"></include> -->
+  </body>
+</html>
+
+<!--
+
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -7,6 +46,7 @@
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="index.js" defer></script>
   </head>
   <body>
     <div class="search-container">
@@ -17,12 +57,17 @@
           autocomplete="off"
           placeholder="Search images..."
         />
-        <button class="search-button" type="submit">Search</button>
+        <button type="submit">Search</button>
       </form>
     </div>
     <div class="gallery">
-      <!-- Obraz karty -->
+      <div class="photo-card"></div>
     </div>
-    <!-- <include src="./partials/example.html"></include> -->
+
+    <div class="loader">
+      <button type="button" class="load-more">Load more images</button>
+    </div>
   </body>
 </html>
+
+-->

@@ -1,11 +1,22 @@
-.search-container {
+.search-tab {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(55, 55, 188);
-  height: 40px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.load-more {
 }
 
 .search-button {
   margin-left: 0;
+}
+
+.photo-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
